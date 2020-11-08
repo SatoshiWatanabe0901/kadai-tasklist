@@ -4,11 +4,11 @@
 
 <!-- ここにページ毎のコンテンツを書く-->
 
-    <h1>id = {{ $task->id }} のタスク詳細ページ</h1>
+    <h1>タスクID{{ $task->id }} の詳細ページ</h1>
     
     <table class='table table-bordered'>
         <tr>
-            <th>id</th>
+            <th>タスクID</th>
             <td>{{ $task->id }}</td>
         </tr>
         <tr>
